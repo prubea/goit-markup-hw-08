@@ -1,12 +1,19 @@
 body {
   background-color: white;
+  font-family: 'Roboto';
+}
+
+.hidden {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
 }
 
 /* logo */
 .logo {
   position: absolute;
-  width: 145px;
-  /* height: 31px; */
+  /* width: 145px; */
+  height: 31px;
   left: 215px;
   top: 24px;
 
@@ -16,4 +23,20 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+}
+
+.navi {
+  position: absolute;
+  /* width: 53px; */
+  height: 16px;
+  left: 453px;
+  top: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
 }
