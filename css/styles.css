@@ -17,32 +17,130 @@ body {
 
 /* --- logo --- */
 .logo {
-  position: absolute;
-  /* width: 145px; */
+  /* position: absolute;
+  width: 145px;
   height: 31px;
   left: 215px;
-  top: 24px;
+  top: 24px; */
 
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  /* line-size = 1.192 = line-size w px (np. 31px) podzielić przez font-size (np. 26px) */
+  line-height: 1.192;
+  /* or 31px */
   letter-spacing: 0.03em;
 }
 
-.navi {
-  position: absolute;
-  /* width: 53px; */
+/* nawigacja */
+.navi-list,
+.adres {
+  /* position: absolute;
+  width: 53px;
   height: 16px;
   left: 453px;
-  top: 32px;
+  top: 32px; */
 
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.143;
+  /* or 16 */
   letter-spacing: 0.02em;
-
   color: #212121;
+}
+
+.navi-list-link:hover,
+.navi-list-link:focus,
+.adres-mail:hover,
+.adres-mail:focus,
+.adres-phone:hover,
+.adres-phone:focus {
+  color: var(--main-color);
+}
+
+.adres,
+.adres-footer {
+  font-style: normal;
+}
+
+/* main */
+.main-section {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background: #2f303a;
+}
+
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  /* or 60px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+/* buttons */
+
+.button1,
+.button2 {
+  background-color: #f5f4fa;
+}
+
+.button1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  /* or 30px */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
+.button2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* or 26px */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+
+  height: 38px;
+}
+
+.button1:hover,
+.button1:focus,
+.button2:hover,
+.button2:focus {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+
+/* atuts */
+
+/* footer */
+.adres-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 24px */
+  letter-spacing: 0.03em;
+  /* color: #FFFFFF; */
 }
