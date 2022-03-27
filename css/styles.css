@@ -1,6 +1,12 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --main-color: #2196f3;
+}
+
 body {
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
 }
 
 .hidden {
@@ -9,7 +15,7 @@ body {
   left: -9999px;
 }
 
-/* logo */
+/* --- logo --- */
 .logo {
   position: absolute;
   /* width: 145px; */

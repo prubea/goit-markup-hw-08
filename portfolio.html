@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,28 +12,36 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+
+    <title>Portfolio</title>
   </head>
   <body>
     <!--Menu-->
     <header class="header">
-      <a href="index.html" class="logo">WebStudio</a>
+      <a class="logo" href="index.html">WebStudio</a>
       <nav class="navi">
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="navi-list">
+          <li class="navi-list-item">
+            <a class="navi-list-link" href="#">Agencja</a>
+          </li>
+          <li class="navi-list-item">
+            <a class="navi-list-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="navi-list-item">
+            <a class="navi-list-link" href="#">Kontakt</a>
+          </li>
         </ul>
       </nav>
 
       <!--hover-->
-      <a href="mailto:info@example.com">info@example.com</a>
-      <a href="tel:+48111111111">+48 111 111 111</a>
+      <a class="adres" href="mailto:info@example.com">info@example.com</a>
+      <a class="adres" href="tel:+48111111111">+48 111 111 111</a>
     </header>
 
     <main>
       <!-- buttons -->
       <section>
-        <h2 class="hidden">Controls</h2>
+        <h2 class="hidden">Przyciski do prac</h2>
         <ul>
           <li>
             <!-- <a href="#"> -->
@@ -96,6 +104,9 @@
               </figcaption>
             </figure>
           </li>
+        </ul>
+
+        <ul>
           <!-- project4 -->
           <li>
             <figure>
@@ -126,6 +137,9 @@
               </figcaption>
             </figure>
           </li>
+        </ul>
+
+        <ul>
           <!-- project7 -->
           <li>
             <figure>
@@ -161,8 +175,8 @@
     </main>
     <!--Stopka-->
     <footer>
-      <a href="#">WebStudio</a>
-      <address>
+      <a href="./index.html">WebStudio</a>
+      <address class="adres">
         m. Warszawa, Aleje Jerozolimskie 21
         <a href="mailto:info@example.com">info@example.com</a>
         <a href="tel:+48111111111">+48 111 111 111</a>
