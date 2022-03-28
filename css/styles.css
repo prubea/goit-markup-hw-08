@@ -2,12 +2,13 @@
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
   --main-color: #2196f3;
+  --dark-color: #212121;
 }
 
 body {
   background-color: white;
   font-family: var(--main-font);
-  color: #212121;
+  color: var(--dark-color);
 }
 
 .hidden {
@@ -42,6 +43,11 @@ h2 {
   list-style: none;
 }
 
+footer {
+  background-color: var(--dark-color);
+  color: #ffffff;
+}
+
 /* --- logo --- */
 .logo {
   /* position: absolute;
@@ -62,6 +68,10 @@ h2 {
 
 .logo-web {
   color: var(--main-color);
+}
+
+.logo-dark {
+  color: #ffffff;
 }
 
 /* nawigacja */
