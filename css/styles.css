@@ -30,9 +30,8 @@ h2 {
 }
 
 .navi-list-link,
-.adres-mail,
-.adres-phone,
-a {
+a:visited,
+a:link {
   text-decoration: none;
   color: var(--dark-color);
 }
@@ -249,7 +248,8 @@ button {
   color: var(--white-color);
 }
 
-.adres-mail,
-.adres-phone {
+address > .adres-mail,
+address > .adres-phone {
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
