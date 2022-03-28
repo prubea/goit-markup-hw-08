@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: var(--white-color);
   font-family: var(--main-font);
   color: var(--dark-color);
 }
@@ -48,7 +48,7 @@ a {
 
 footer {
   background-color: var(--dark-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 
 /* --- logo --- */
