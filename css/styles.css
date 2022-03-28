@@ -74,10 +74,6 @@ footer {
   color: var(--main-color);
 }
 
-.logo-dark {
-  color: var(--white-color);
-}
-
 /* nawigacja */
 
 .navi-list,
@@ -245,6 +241,10 @@ button {
   line-height: 1.714;
   /* 24px */
   letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+footer > .logo-dark {
   color: var(--white-color);
 }
 
