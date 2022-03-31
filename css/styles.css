@@ -19,7 +19,7 @@ body {
   left: -9999px;
 }
 
-h2 {
+.team-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -30,8 +30,8 @@ h2 {
 }
 
 .navi-list-link,
-a:visited,
-a:link {
+.link:visited,
+.link:link {
   text-decoration: none;
   color: var(--dark-color);
 }
@@ -46,7 +46,7 @@ a:link {
   list-style: none;
 }
 
-footer {
+.foter {
   background-color: var(--dark-color);
   color: var(--white-color);
 }
@@ -69,7 +69,7 @@ footer {
   text-decoration: none;
 }
 
-li > .navi-portfolio,
+.buton-item-portfolio > .navi-portfolio,
 .logo-web {
   color: var(--main-color);
 }
@@ -132,9 +132,9 @@ li > .navi-portfolio,
 }
 
 /* buttons - main page i portfolio */
-button {
+/* button {
   cursor: pointer;
-}
+} */
 
 .button-main {
   font-weight: 700;
@@ -146,6 +146,8 @@ button {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--dark-color);
+  
+  cursor: pointer;
 
   position: absolute;
   width: 200px;
@@ -164,6 +166,7 @@ button {
   color: var(--dark-color);
   background-color: #f5f4fa;
   height: 38px;
+  cursor: pointer;
 }
 
 .button-main,
@@ -244,12 +247,12 @@ button {
   color: var(--white-color);
 }
 
-footer > .logo-dark {
+.foter > .logo-dark {
   color: var(--white-color);
 }
 
-address > .adres-mail,
-address > .adres-phone {
+.adres-footer > .adres-mail,
+.adres-footer > .adres-phone {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
