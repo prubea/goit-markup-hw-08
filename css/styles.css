@@ -94,12 +94,12 @@ body {
 
 .navi-list-link:hover,
 .navi-list-link:focus,
-/* .adres-mail:hover,
+.adres-mail:hover,
 .adres-mail:focus,
 .adres-phone:hover,
-.adres-phone:focus, */
-.link:hover,
-.link:focus {
+.adres-phone:focus,
+.adres-footer > .link:hover,
+.adres-footer > .link:focus {
   color: var(--main-color);
 }
 
@@ -132,11 +132,6 @@ body {
   left: 452px;
   top: 280px;
 }
-
-/* buttons - main page i portfolio */
-/* button {
-  cursor: pointer;
-} */
 
 .button-main {
   font-weight: 700;
