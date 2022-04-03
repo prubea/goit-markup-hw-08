@@ -94,10 +94,12 @@ body {
 
 .navi-list-link:hover,
 .navi-list-link:focus,
-.adres-mail:hover,
+/* .adres-mail:hover,
 .adres-mail:focus,
 .adres-phone:hover,
-.adres-phone:focus {
+.adres-phone:focus, */
+.link:hover,
+.link:focus {
   color: var(--main-color);
 }
 
