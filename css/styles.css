@@ -27,9 +27,15 @@ h6{
 }
 p{
   padding: 0;
+  margin: 0;
 }
 ul,
 ol {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
   margin: 0;
   padding: 0;
 }
@@ -48,9 +54,16 @@ img {
   text-decoration: none;
 }
 
-.container{
+.container {
   width: 1200px;
   padding: 0 15px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-header {
@@ -84,6 +97,36 @@ img {
   color: var(--white-color);
 }
 
+/* ==== header ==== */
+.header .container {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo-menu {
+  margin-right: 93px;
+}
+
+.navi-list-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.mail-link {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+.navi {
+  display: flex;
+  align-items: center;
+}
+
+.navi-list {
+  display: flex;
+}
+
 /* --- logo --- */
 .logo {
   /* position: absolute;
@@ -101,7 +144,11 @@ img {
   letter-spacing: 0.03em;
 }
 
-.navi-list-item > .navi-portfolio,
+.agencja-navi,
+.portfolio-navi {
+  color: var(--main-color);
+}
+
 .logo-web {
   color: var(--main-color);
 }
@@ -110,8 +157,7 @@ img {
 
 .navi-list,
 .adres {
-  /* position: absolute;
-  width: 53px;
+  /* width: 53px;
   height: 16px;
   left: 453px;
   top: 32px; */
@@ -140,7 +186,7 @@ img {
   font-style: normal;
 }
 
-/* main */
+/* ==== main ===== */
 .main-section {
   width: 1600px;
   height: 600px;
@@ -149,20 +195,31 @@ img {
   background: var(--main-section-color);
 }
 
+.main-section .container {
+  display: flex;
+  align-items: center;
+}
+
 .main-header {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   /* 60px */
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.06em;
   color: var(--white-color);
 
-  position: absolute;
+  /* position: absolute;
   width: 696px;
   height: 120px;
   left: 452px;
-  top: 280px;
+  top: 280px; */
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  /* margin: 200px 300px 280px 300px; */
 }
 
 .button-main {
