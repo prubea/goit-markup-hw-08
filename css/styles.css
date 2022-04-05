@@ -8,6 +8,7 @@
   --main-section-color: #2f303a;
   --button-color: #f5f4fa;
   --gray-color-transparent: rgba(255, 255, 255, 0.6);
+  --shadow-color: rgba(0 0 0 0.15);
 }
 
 body {
@@ -187,17 +188,17 @@ img {
 }
 
 /* ==== main ===== */
+.main-section .container {
+  display: flex;
+}
+
 .main-section {
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
   background: var(--main-section-color);
-}
-
-.main-section .container {
-  display: flex;
-  align-items: center;
+  padding-top: 0;
 }
 
 .main-header {
@@ -205,12 +206,14 @@ img {
   font-size: 44px;
   line-height: 1.363;
   /* 60px */
-  /* text-align: center; */
   letter-spacing: 0.06em;
+  text-align: center;
   color: var(--white-color);
+  margin-bottom: 30px;
 
-  /* position: absolute;
   width: 696px;
+  
+  /* position: absolute;
   height: 120px;
   left: 452px;
   top: 280px; */
@@ -219,7 +222,9 @@ img {
 .main-header {
   display: flex;
   align-items: center;
-  /* margin: 200px 300px 280px 300px; */
+  padding: 200px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-main {
@@ -227,19 +232,27 @@ img {
   font-size: 16px;
   line-height: 1.875;
   /* 30px */
-  /* display: flex; */
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--dark-color);
-  
-  cursor: pointer;
-
-  position: absolute;
   width: 200px;
   height: 50px;
+
+  cursor: pointer;
+
+  box-shadow: 0px 4px 4px var(--shadow-color);
+  border-radius: 4px;
+
+  /* position: absolute;
   left: 700px;
-  top: 430px;
+  top: 430px; */
+}
+
+.button-main {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px 41px 10px 42px;
+  margin: 0 auto;
 }
 
 .button-portfolio {
@@ -263,6 +276,10 @@ img {
 }
 
 /* main page - atuts */
+.atut {
+  padding-bottom: 0;
+}
+
 .atut-header {
   font-weight: 700;
   font-size: 14px;
