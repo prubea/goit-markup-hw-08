@@ -398,7 +398,7 @@ img {
   display: flex;
 }
 
-.projeck-list {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -406,7 +406,7 @@ img {
 
 .project-list-item {
   flex-basis: calc(100% / 3 - 30px);
-  /* margin-bottom: 30px */
+  margin-bottom: 30px
 }
 
 .header-project {
