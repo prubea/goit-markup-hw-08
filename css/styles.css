@@ -108,6 +108,13 @@ img {
   padding-bottom: 25px;
 }
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+  /* border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ECECEC; */
+}
+
 .logo-menu {
   margin-right: 93px;
 }
