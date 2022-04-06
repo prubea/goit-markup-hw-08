@@ -406,6 +406,7 @@ img {
 
 .project-list-item {
   flex-basis: calc(100% / 3 - 30px);
+  padding-bottom: 20px;
   margin-bottom: 30px
 }
 
