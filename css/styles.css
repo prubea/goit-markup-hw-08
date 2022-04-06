@@ -377,7 +377,8 @@ img {
   color: var(--gray-color);
 }
 
-/* portfolio - projects */
+/* ====== portfolio - projects ======= */
+/* ---- button --- */
 .button-portfolio-section .container {
   display:block;
 }
@@ -404,6 +405,7 @@ img {
   margin-right: 8px;
 }
 
+/* ---- projects ---- */
 .project .container {
   display: flex;
 }
@@ -417,7 +419,12 @@ img {
 .project-list-item {
   flex-basis: calc(100% / 3 - 30px);
   padding-bottom: 20px;
-  margin-bottom: 30px
+  margin-bottom: 30px;
+}
+
+.img-podpis {
+  padding: 20px 24px;
+  border: 1px solid #ECECEC;
 }
 
 .header-project {
@@ -438,7 +445,7 @@ img {
   color: var(--gray-color);
 }
 
-/* footer */
+/* ====== footer ====== */
 .foter .container {
   display: block;
   width: 1600px;
