@@ -186,21 +186,22 @@ img {
 /* ==== main ===== */
 .main-section .container {
   display: block;
-  
+
+  width: 1600px;
+  color: var(--white-color);
+  padding: 0;
+  /* padding-left: 215px;
+  margin: 0 auto;
+   */
   /* padding-top: 200px;
   padding-bottom: 200px; */
   /* margin-bottom: 94px; */
 }
 
 .main-section {
-  width: 1600px;
-  height: 600px;
-  color: var(--white-color);
   background: var(--main-section-color);
-  left: 0px;
-  top: 80px;
+  
   padding-top: 0;
-  padding: 200px 0;
 }
 
 .main-header {
@@ -212,6 +213,8 @@ img {
   text-align: center;
   color: var(--white-color);
   margin-bottom: 30px;
+
+  padding-top: 200px;
 
   width: 696px;
   
