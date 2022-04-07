@@ -152,6 +152,10 @@ img {
   color: var(--dark-color);
 }
 
+.logo:visited {
+  color: var(--dark-color);
+}
+
 .agencja-navi,
 .portfolio-navi {
   color: var(--main-color);
