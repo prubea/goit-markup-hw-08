@@ -24,6 +24,8 @@ h4,
 h5,
 h6{
   margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
   padding: 0;
 }
 p{
@@ -448,17 +450,24 @@ img {
   margin-bottom: 30px;
 }
 
+.img-project {
+  width: 370px;
+  height: 294px;
+}
+
 .img-podpis {
   padding: 20px 24px;
   border: 1px solid #ECECEC;
+  border-top: 0;
 }
 
 .header-project {
+  width: 322px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   /* 36px */
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   color: var(--dark-color);
 }
 
