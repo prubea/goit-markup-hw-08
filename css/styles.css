@@ -120,7 +120,6 @@ img {
 
 .logo-menu {
   margin-right: 93px;
-  var(--dark-color);
 }
 
 .navi-list-item:not(:last-child) {
@@ -150,6 +149,7 @@ img {
   line-height: 1.192;
   /* 31px */
   letter-spacing: 0.03em;
+  color: var(--dark-color);
 }
 
 .agencja-navi,
