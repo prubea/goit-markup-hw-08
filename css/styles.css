@@ -218,7 +218,7 @@ img {
   background-image: linear-gradient(
     rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)), 
-    url("/images/main/main-bg.jpg");
+    url("../images/main/main-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   /* background: var(--main-section-color); */
@@ -238,7 +238,7 @@ img {
   /* justify-items: center; */
   /* color: var(--white-color); */
 
-  /* width: 696px; */
+  width: 696px;
   
   display: block;
   align-items: center;
