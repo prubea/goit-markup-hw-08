@@ -95,7 +95,8 @@ img {
 .team-list,
 .prace,
 .project-list,
-.adres-footer-list {
+.adres-footer-list,
+.list {
   list-style: none;
 }
 
@@ -416,15 +417,26 @@ img {
 .team-social-list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .team-social-list-link {
-  display: block;
+  display: flex;
   width: 44px;
   height: 44px;
   background-color: var(--white-color);
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-social-list-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-social-list-link:focus,
+.team-social-list-link:hover {
+  background-color: var(--main-color)
 }
 
 .team-social-icon {
