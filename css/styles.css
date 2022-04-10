@@ -196,6 +196,7 @@ img {
 .adres-footer-list-item > .link:hover,
 .adres-footer-list-item > .link:focus {
   color: var(--main-color);
+  /* fill: var(--main-color); */
 }
 
 .adres,
@@ -212,7 +213,7 @@ img {
 .adres-icon-mail,
 .adres-icon-phone {
   margin-right: 10px;
-  color: var(--gray-color);
+  fill: var(--gray-color);
 }
 
 .adres-icon-mail:focus,
@@ -221,6 +222,7 @@ img {
 .adres-icon-phone:hover {
   fill: var(--main-color);
 }
+
 
 .adres-icon-mail {
   width: 16px;
@@ -478,6 +480,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 16px;
 }
 
 .team-social-list-link {
