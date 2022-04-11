@@ -221,13 +221,13 @@ img {
   fill: var(--gray-color);
 }
 
-.adres-icon-mail {
+/* .adres-icon-mail {
   width: 16px;
 }
 
 .adres-icon-phone {
   width: 10px;
-}
+} */
 
 /* ==== main ===== */
 .main-section .container {
@@ -360,8 +360,8 @@ img {
 
 .atut-social-icon {
   display: flex;
-  width: 70px;
-  height: 70px;  
+  /* width: 70px;
+  height: 70px;   */
 }
 
 .atut-l-icon {
@@ -510,10 +510,10 @@ img {
   fill: var(--white-color);
 }
 
-.team-social-icon {
+/* .team-social-icon {
   width: 20px;
   height: 20px;
-}
+} */
 
 /* ---- Klienci ---- */
 .klient .container {
@@ -564,8 +564,8 @@ img {
 
 .klient-social-icon {
   display: flex;
-  width: 106px;
-  height: 60px;
+  /* width: 106px;
+  height: 60px; */
   fill: var(--litegray-color);
 }
 
@@ -746,7 +746,7 @@ box-sizing: border-box;
   
 }
 
-.foter-social-icon {
+/* .foter-social-icon {
   width: 20px;
   height: 20px;
-}
+} */
