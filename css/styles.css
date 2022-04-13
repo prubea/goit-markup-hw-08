@@ -764,7 +764,7 @@ box-sizing: border-box;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* może być inne */
+  /* mogą być inne wymiary okna modalnego: */
   width: 528px;
   min-height: 581px;
   background-color: var(--white-color);
