@@ -57,6 +57,7 @@
           </svg>
           +48 111 111 111
         </a>
+        <!-- <button class="modal-btn" type="button" data-modal-open>REJESTRACJA ONLINE</button> -->
       </div>
     </header>
 
@@ -64,7 +65,7 @@
       <section class="main-section">
         <div class="container">
           <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="button-main" type="button">Zamów usługe</button>
+          <button class="button-main modal-btn" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
@@ -451,6 +452,11 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>X</button>
+      </div>
+    </div>
 
     <!-- Umieść przed zamykającym tagiem body -->
     <script src="./js/modal.js"></script>
