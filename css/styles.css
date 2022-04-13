@@ -110,8 +110,11 @@ img {
 .header .container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 80px;
+  /* padding-top: 24px;
+  padding-bottom: 25px; może to będzie dobrze*/
   margin: 0 auto;
 }
 
@@ -174,11 +177,6 @@ img {
 
 .navi-list,
 .adres {
-  /* width: 53px;
-  height: 16px;
-  left: 453px;
-  top: 32px; */
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -666,7 +664,8 @@ box-sizing: border-box;
   /* width: 1600px; */
   color: var(--white-color);
   padding: 60px 0;
-  padding-left: 215px;
+  /* padding-left: 215px; */
+  text-align: left;
   margin: 0 auto;
 }
 
