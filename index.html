@@ -66,8 +66,8 @@
       <section class="main-section">
         <div class="container">
           <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <!-- do okna modalnego - modla-btn -->
-          <button class="button-main modal-btn" type="button" data-modal-open>Zamów usługe</button>
+          <!-- do okna modalnego - data-modal-open -->
+          <button class="button-main" type="button" data-modal-open>Zamów usługe</button>
         </div>
       </section>
 
@@ -461,7 +461,12 @@
     <!-- Okno modalne - backdrop -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close>X</button>
+        <button type="button" class="close-btn" data-modal-close>
+          <!-- X -->
+          <svg class="iksik" width="11" height="11">
+            <use href="./images/icons.svg#iksik"></use>
+          </svg>
+        </button>
       </div>
     </div>
 
