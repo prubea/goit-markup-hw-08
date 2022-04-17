@@ -397,7 +397,8 @@ img {
 .atut-p:not(:last-child) {
   margin-right: 30px;
 }
-/* work - main page */
+
+/* Work - main page */
 
 .work-section .container {
   display: block;
@@ -425,6 +426,31 @@ img {
 
 .work-list-item:not(:last-child) {
   margin-right: 30px;
+}
+
+.work-list-item {
+  position: relative;
+}
+
+.work-list-item>.label {
+  position: absolute;
+  bottom: 0;
+  /* left: 0; */
+  margin: 0;
+  padding: 27px 0;
+  width:370px;
+  
+  font-family: var(--main-font);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1,143;
+  /* 16px */
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background-color: rgba(47, 48, 58, 0.8);
+
 }
 
 /* zespół team - main page */
