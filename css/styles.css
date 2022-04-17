@@ -444,7 +444,7 @@ img {
   color: var(--white-color);
   font-weight: 700;
   font-size: 14px;
-  line-height: 1,143;
+  line-height: 1.143;
   /* 16px */
   text-align: center;
   letter-spacing: 0.03em;
@@ -657,6 +657,38 @@ box-sizing: border-box;
   height: 294px;
 }
 
+.img-figure:hover .overlay-portfolio {
+  transform: translateX(0);
+}
+
+.img-figure {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.img-figure .overlay-portfolio {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 294px;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  transform: translatex(-100%);
+  transition: transform 250ms ease;
+  animation: cubic-bezier(0.4, 0, 0.2, 1);
+  
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.556;
+  /* or 28px */
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  padding: 49px 45px 49px 24px;
+  margin: 0;
+}
+
 .img-podpis {
   display: block;
   box-sizing: border-box;
@@ -774,7 +806,7 @@ box-sizing: border-box;
   height: 20px;
 } */
 
-/* backdrop */
+/* ==== Okno modalne - backdrop ====*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -804,7 +836,7 @@ box-sizing: border-box;
   width: 30px;
   height: 30px;
   background-color: var(--white-color);
-  border: 1px solid rgba(0 0 0 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
 }
