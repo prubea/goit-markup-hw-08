@@ -84,24 +84,20 @@
       </section>
 
       <!--projects -->
-      <!--projects -->
       <section class="project section">
         <div class="container">
           <ul class="project-list">
             <!-- project1 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project1.jpg" alt="project1" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project1.jpg" alt="project1" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
-
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Technocrack</h3>
                   <p class="p-project">Strona internetowa</p>
@@ -111,15 +107,13 @@
             <!-- project2 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project2.jpg" alt="project2" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project2.jpg" alt="project2" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Grafika New Orlean vs Golden Star</h3>
@@ -130,15 +124,13 @@
             <!-- project3 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project3.jpg" alt="project3" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project3.jpg" alt="project3" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Restauracja Seafood</h3>
@@ -149,15 +141,13 @@
             <!-- project4 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project4.jpg" alt="project4" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project4.jpg" alt="project4" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Projekt Prime</h3>
@@ -168,15 +158,13 @@
             <!-- project5 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project5.jpg" alt="project5" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project5.jpg" alt="project5" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Projekt Boxes</h3>
@@ -187,15 +175,13 @@
             <!-- project6 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project6.jpg" alt="project6" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project6.jpg" alt="project6" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Inspiration has no Borders</h3>
@@ -206,15 +192,13 @@
             <!-- project7 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project7.jpg" alt="project7" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project7.jpg" alt="project7" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Magazyn Limited Edition</h3>
@@ -225,15 +209,13 @@
             <!-- project8 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project8.jpg" alt="project8" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project8.jpg" alt="project8" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Projekt LAB</h3>
@@ -244,15 +226,13 @@
             <!-- project9 -->
             <li class="project-list-item">
               <figure class="img-figure">
-                <div class="box">
-                  <img class="img-project" src="./images/project/project9.jpg" alt="project9" />
-                  <div class="overlay-portfolio">
-                    <p>
-                      Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
-                      koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
-                      na niezabezpieczone serwery konkurencji.
-                    </p>
-                  </div>
+                <img class="img-project" src="./images/project/project9.jpg" alt="project9" />
+                <div class="overlay-portfolio">
+                  <p>
+                    Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
+                    koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków na
+                    niezabezpieczone serwery konkurencji.
+                  </p>
                 </div>
                 <figcaption class="img-podpis">
                   <h3 class="header-project">Growing Business</h3>

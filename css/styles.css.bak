@@ -692,29 +692,16 @@ img {
   height: 294px;
 }
 
-.box:hover .overlay-portfolio {
+.img-figure:hover .overlay-portfolio {
   transform: translatey(0);
   /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
-/* .img-figure {
+.img-figure {
   position: relative;
   cursor: pointer;
   overflow: hidden;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-.box {
-  position: relative;
-  /* width: 300px;
-  height: 300px; */
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: #bdbdbd;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); */
-  cursor: pointer;
-  overflow: hidden;
 }
 
 .img-figure .overlay-portfolio {
@@ -727,9 +714,7 @@ img {
 
   transform: translatey(150%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.overlay-portfolio > p {
+      
   font-weight: 400;
   font-size: 18px;
   line-height: 1.556;
