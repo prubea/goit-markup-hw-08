@@ -1064,7 +1064,7 @@ img {
 }
 
 .modal-form-message:focus {
-  border-color: #2196F3;
+  border-color: var(--main-color);
 }
 
 /* zmiana koloru tekstu obok checkboxa
@@ -1090,11 +1090,11 @@ img {
   line-height: 1.714;
   /* 24px; */
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 .modal-form-policy-text>a {
-  color: #2196F3;
+  color: var(--main-color);
 }
 
 .modal-form-policy-checkbox {
