@@ -1147,6 +1147,7 @@ img {
 .modal-form-policy-checkbox:checked+.modal-form-policy-text::before {
   background-image: url(../images/checbox.svg);
   background-size: contain;
+  background-repeat: no-repeat;
   border-color: var(--main-color);
   background-color: var(--main-color);
   transition-property: background-color, border-color;
