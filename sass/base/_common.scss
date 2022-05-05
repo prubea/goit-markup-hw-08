@@ -1,0 +1,72 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --main-color: #2196f3;
+    --dark-color: #212121;
+    --gray-color: #757575;
+    --litegray-color: #afb1b8;
+    --white-color: #ffffff;
+    --main-section-color: #2f303a;
+    --button-color: #f5f4fa;
+    --gray-color-transparent: rgba(255, 255, 255, 0.6);
+    --shadow-color: rgba(0, 0, 0, 0.15);
+}
+
+body {
+    background-color: var(--white-color);
+    font-family: var(--main-font);
+    color: var(--dark-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.navi-list,
+.adres,
+.atut-list,
+.work-list,
+.team-list,
+.prace,
+.project-list,
+.adres-footer-list,
+.list {
+    list-style: none;
+}
+
+.adres,
+.adres-footer {
+    font-style: normal;
+}
