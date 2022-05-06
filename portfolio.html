@@ -27,34 +27,34 @@
       <div class="container">
         <a class="link logo logo-menu" href="index.html"><span class="logo-web">Web</span>Studio</a>
         <nav class="navi">
-          <ul class="navi-list">
-            <li class="navi-list-item">
-              <a class="link navi-list-link agencja-link" href="./index.html">Agencja</a>
+          <ul class="navi__list">
+            <li class="navi__item">
+              <a class="link navi__link agencja-navi agencja-link" href="./index.html">Agencja</a>
             </li>
-            <li class="navi-list-item current-navi">
-              <a class="link navi-list-link portfolio-navi portfolio-link" href="./portfolio.html"
-                >Portfolio</a
-              >
+            <li class="navi__item current-navi">
+              <a class="link navi__link portfolio-link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="navi-list-item">
-              <a class="link navi-list-link kontakt-link" href="#">Kontakt</a>
+            <!-- dodać current-navi na stronie Kontakt do li -->
+            <li class="navi__item">
+              <a class="link navi__link kontakt-link" href="#">Kontakt</a>
             </li>
           </ul>
         </nav>
         <!--hover-->
 
         <a class="link adres adres-mail mail-link" href="mailto:info@example.com">
-          <svg class="adres-icon-mail" width="16">
+          <svg class="adres-mail__icon" width="16">
             <use href="./images/icons.svg#icon-envelope"></use>
           </svg>
           info@example.com
         </a>
         <a class="link adres adres-phone phone-link" href="tel:+48111111111">
-          <svg class="adres-icon-phone" width="10">
+          <svg class="adres-phone__icon" width="10">
             <use href="./images/icons.svg#icon-phone"></use>
           </svg>
           +48 111 111 111
         </a>
+        <!-- <button class="modal-btn" type="button" data-modal-open>REJESTRACJA ONLINE</button> -->
       </div>
     </header>
 
@@ -87,9 +87,9 @@
       <!--projects -->
       <section class="project section">
         <div class="container">
-          <ul class="project-list">
+          <ul class="project__list">
             <!-- project1 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project1.jpg" alt="project1" />
@@ -109,7 +109,7 @@
               </figure>
             </li>
             <!-- project2 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project2.jpg" alt="project2" />
@@ -128,7 +128,7 @@
               </figure>
             </li>
             <!-- project3 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project3.jpg" alt="project3" />
@@ -147,7 +147,7 @@
               </figure>
             </li>
             <!-- project4 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project4.jpg" alt="project4" />
@@ -166,7 +166,7 @@
               </figure>
             </li>
             <!-- project5 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project5.jpg" alt="project5" />
@@ -185,7 +185,7 @@
               </figure>
             </li>
             <!-- project6 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project6.jpg" alt="project6" />
@@ -204,7 +204,7 @@
               </figure>
             </li>
             <!-- project7 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project7.jpg" alt="project7" />
@@ -223,7 +223,7 @@
               </figure>
             </li>
             <!-- project8 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project8.jpg" alt="project8" />
@@ -242,7 +242,7 @@
               </figure>
             </li>
             <!-- project9 -->
-            <li class="project-list-item">
+            <li class="project__item">
               <figure class="img-figure">
                 <div class="box">
                   <img class="img-project" src="./images/project/project9.jpg" alt="project9" />
@@ -272,16 +272,16 @@
             ><span class="logo-web">Web</span>Studio</a
           >
           <address class="adres-footer">
-            <ul class="adres-footer-list">
-              <li class="adres-footer-list-item">
+            <ul class="adres-footer__list">
+              <li class="adres-footer__item">
                 <p class="padding-adres">m. Warszawa, Aleje Jerozolimskie 21</p>
               </li>
-              <li class="adres-footer-list-item">
+              <li class="adres-footer__item">
                 <a class="padding-adres adres-mail link" href="mailto:info@example.com"
                   >info@example.com
                 </a>
               </li>
-              <li class="adres-footer-list-item">
+              <li class="adres-footer__item">
                 <a class="padding-adres adres-phone link" href="tel:+48111111111"
                   >+48 111 111 111</a
                 >
@@ -289,33 +289,33 @@
             </ul>
           </address>
         </div>
-        <div class="foter-right">
+        <div class="foter-social">
           <p class="foter-p">DOŁĄCZ DO NAS</p>
-          <ul class="foter-social-list list">
-            <li class="foter-social-list-item link">
-              <a class="foter-social-list-link" href="#">
-                <svg class="foter-social-icon" width="20" height="20">
+          <ul class="foter-social__list list">
+            <li class="foter-social__item link">
+              <a class="foter-social__link" href="#">
+                <svg class="foter-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="foter-social-list-item link">
-              <a class="foter-social-list-link" href="#">
-                <svg class="foter-social-icon" width="20" height="20">
+            <li class="foter-social__item link">
+              <a class="foter-social__link" href="#">
+                <svg class="foter-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="foter-social-list-item link">
-              <a class="foter-social-list-link" href="#">
-                <svg class="foter-social-icon" width="20" height="20">
+            <li class="foter-social__item link">
+              <a class="foter-social__link" href="#">
+                <svg class="foter-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="foter-social-list-item link">
-              <a class="foter-social-list-link" href="#">
-                <svg class="foter-social-icon" width="20" height="20">
+            <li class="foter-social__item link">
+              <a class="foter-social__link" href="#">
+                <svg class="foter-social__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -334,7 +334,7 @@
               />
               <button class="foter-newsletter-btn" type="submit">
                 Zapisz się
-                <svg class="foter-newsletter-icon" width="24" height="24">
+                <svg class="foter-newsletter__icon" width="24" height="24">
                   <use href="./images/icons.svg#icon-send"></use>
                 </svg>
               </button>
