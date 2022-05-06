@@ -72,14 +72,14 @@ img {
   text-decoration: none;
 }
 
-.navi-list,
+.navi__list,
 .adres,
-.atut-list,
-.work-list,
-.team-list,
+.atut__list,
+.work__list,
+.team__list,
 .prace,
-.project-list,
-.adres-footer-list,
+.project__list,
+.adres-footer__list,
 .list {
   list-style: none;
 }
