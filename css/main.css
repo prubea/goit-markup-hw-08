@@ -117,8 +117,12 @@ img {
   display: block;
 }
 
-.button-portfolio-section .container {
+.button-portfolio .container {
   display: block;
+}
+
+.project .container {
+  display: flex;
 }
 
 .client .container {
@@ -569,10 +573,6 @@ img {
   color: var(--white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-}
-
-.project .container {
-  display: flex;
 }
 
 .project {
