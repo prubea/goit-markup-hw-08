@@ -1,0 +1,25 @@
+.button-portfolio-section .container {
+    display: block;
+}
+
+.button-portfolio-section {
+    display: flex;
+    padding-bottom: 0;
+}
+
+.button-portfolio {
+    text-align: center;
+    border-style: none;
+    border-radius: 4px;
+    padding: 6px 22px;
+}
+
+.buton-item-portfolio:not(:last-child) {
+    margin-right: 8px;
+}
+
+.prace {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}

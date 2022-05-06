@@ -1,0 +1,31 @@
+.order-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
+    background-color: var(--main-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: none;
+    margin-right: 164px;
+    margin-bottom: 40px;
+    margin-left: 164px;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+}
+
+.order-btn {
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

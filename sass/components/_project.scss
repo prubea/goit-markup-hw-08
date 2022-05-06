@@ -1,0 +1,30 @@
+.project .container {
+    display: flex;
+}
+
+.project {
+    padding-top: 0;
+    margin: 0;
+}
+
+.project__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project__item {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-bottom: 30px;
+}
+
+.team__item:focus,
+.team__item:hover,
+.project__item:focus,
+.project__item:hover {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

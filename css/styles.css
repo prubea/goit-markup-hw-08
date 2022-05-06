@@ -564,27 +564,27 @@ img {
 } */
 
 /* ---- Klienci ---- */
-.klient .container {
+.client .container {
   display: block;
 }
 
-.klient {
+.client {
   padding-bottom: 0;
 }
 
-.klient__list {
+.client__list {
   display: flex;
   /* justify-content: space-evenly; */
   flex-wrap: wrap;
   justify-content: space-between;  
 }
 
-.klient__item:not(:last-child) {
+.client__item:not(:last-child) {
   margin-right: 30px;
 }
 
-/* .klient__item */
-.klient__link {
+/* .client__item */
+.client__link {
   /* flex-basis: calc(100% / 4 - 30px); */
   /* padding-bottom: 20px; */
   display: flex;
@@ -600,19 +600,20 @@ img {
   justify-content: center;
 }
 
-.klient__link:focus,
-.klient__link:hover {
+.client__link:focus,
+.client__link:hover {
   border-color: var(--main-color);
   fill: var(--main-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .klient__icon {
+/* .client__icon {
   display: flex;
   width: 106px;
   height: 60px;
   fill: var(--litegray-color);}*/
+ 
  
 
 /* ====== portfolio - projects ======= */

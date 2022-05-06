@@ -1,0 +1,47 @@
+.policy {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 54px;
+    margin-bottom: 30px;
+    margin-left: 55px;
+    align-items: center;
+    width: 419px;
+    height: 24px;
+}
+
+.modal-form-policy-text {
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--gray-color);
+}
+
+.modal-form-policy-text>a {
+    color: var(--main-color);
+}
+
+.modal-form-policy-checkbox {
+    appearance: none;
+}
+
+.modal-form-policy-text::before {
+    display: inline-flex;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 2px solid #000;
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.modal-form-policy-checkbox:checked+.modal-form-policy-text::before {
+    background-image: url(../images/checbox.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+    transition-property: background-color, border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

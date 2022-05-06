@@ -1,0 +1,18 @@
+.foter {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+}
+
+.foter .container {
+    display: flex;
+    color: var(--white-color);
+    padding: 60px 0;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.foter-left>.logo-dark {
+    color: var(--white-color);
+    display: block;
+    padding-bottom: 20px;
+}

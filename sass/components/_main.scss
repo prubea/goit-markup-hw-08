@@ -1,0 +1,31 @@
+/* ==== main ===== */
+.main-section .container {
+    display: block;
+    color: var(--white-color);    
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.main-section {
+    display: block;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../images/main/main-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;
+    letter-spacing: 0.06em;
+    text-align: center;
+    justify-content: center;
+    width: 696px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
