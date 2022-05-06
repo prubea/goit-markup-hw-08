@@ -3,4 +3,56 @@
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
+
+    .header & {
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+        padding-bottom: 0;
+        height: 80px;
+        margin: 0 auto;
+    }
+
+    .main-section & {
+        display: block;
+        color: var(--white-color);
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .atut & {
+        display: block;
+    }
+
+    .button-portfolio-section & {
+        display: block;
+    }
+
+    .client & {
+        display: block;
+    }
+
+    .foter & {
+        display: flex;
+        color: var(--white-color);
+        padding: 60px 0;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+    & .foter-social {
+        display: block;
+        align-self: flex-start;
+        justify-content: space-between;
+        margin-left: 70px;
+        flex-wrap: wrap;
+    }
+
+    & .foter-newsletter {
+        display: block;
+        align-self: flex-start;
+        justify-content: space-between;
+        margin-left: 78px;
+        flex-wrap: wrap;
+    }
 }

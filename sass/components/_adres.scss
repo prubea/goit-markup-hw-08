@@ -37,13 +37,21 @@
     }
 }
 
-.adres-mail:hover,
-.adres-mail:focus,
-.adres-phone:hover,
-.adres-phone:focus {
-    color: var(--main-color);
-    fill: var(--main-color);
+.adres-mail {
+    &:hover,
+    &:focus {
+        color: var(--main-color);
+        fill: var(--main-color);
+    }
 }
+
+.adres-phone {
+        &:hover,
+        &:focus {
+            color: var(--main-color);
+            fill: var(--main-color);
+        }
+    }
 
 .mail-link {
     margin-left: auto;
