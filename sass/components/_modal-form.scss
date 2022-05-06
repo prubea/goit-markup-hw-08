@@ -49,6 +49,11 @@
     padding-left: 42px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
+
+    &:focus {
+        border-color: var(--main-color);
+        outline: none;
+    }
 }
 
 .modal-form__icon {
@@ -58,11 +63,6 @@
     left: 12px;
     fill: var(--dark-color);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-input:focus {
-    border-color: var(--main-color);
-    outline: none;
 }
 
 .modal-form-input:focus+.modal-form__icon {
@@ -79,8 +79,9 @@
     border-radius: 4px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        border-color: var(--main-color);
+    }
 }
 
-.modal-form-message:focus {
-    border-color: var(--main-color);
-}

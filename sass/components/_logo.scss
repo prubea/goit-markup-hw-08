@@ -10,10 +10,10 @@
     line-height: 1.192;
     letter-spacing: 0.03em;
     color: var(--dark-color);
-}
 
-.logo:visited {
-    color: var(--dark-color);
+    &:visited {
+        color: var(--dark-color);
+    }
 }
 
 .logo-web {

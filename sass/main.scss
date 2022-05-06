@@ -1,10 +1,12 @@
 @import "./utils/visually-hidden";
 @import "./base/hidden";
 @import "./utils/variables";
+
 @import "./base/common";
 @import "./base/container";
 @import "./base/section";
-@import "./components/_header";
+
+@import "./components/header";
 @import "./components/logo";
 @import "./components/navi";
 @import "./components/adres";
@@ -19,7 +21,7 @@
 @import "./components/project";
 @import "./components/img-figure";
 @import "./components/foter";
-@import "./components/adres-foter";
+@import "./components/adres-footer";
 @import "./components/foter-social";
 @import "./components/foter-newsletter";
 @import "./components/modal";

@@ -14,16 +14,16 @@
     align-items: center;
     justify-content: center;
     fill: var(--litegray-color);
+
+    &:focus,
+    &:hover {
+        background-color: var(--main-color);
+        fill: var(--white-color);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 .social__link:not(:last-child) {
     margin-right: 10px;
-}
-
-.social__link:focus,
-.social__link:hover {
-    background-color: var(--main-color);
-    fill: var(--white-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }

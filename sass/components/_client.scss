@@ -27,12 +27,12 @@
     margin-bottom: 94px;
     align-items: center;
     justify-content: center;
-}
 
-.client__link:focus,
-.client__link:hover {
-    border-color: var(--main-color);
-    fill: var(--main-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+        border-color: var(--main-color);
+        fill: var(--main-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
