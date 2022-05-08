@@ -133,6 +133,10 @@ img {
   display: block;
 }
 
+.team .container {
+  display: block;
+}
+
 .foter .container {
   display: flex;
   color: var(--white-color);
@@ -422,10 +426,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   background-color: rgba(47, 48, 58, 0.8);
-}
-
-.team .container {
-  display: block;
 }
 
 .team {
