@@ -1,7 +1,7 @@
 .main-section {
     display: block;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
-            rgba(47, 48, 58, 0.4)), url("../images/main/main-bg.jpg");
+            rgba(47, 48, 58, 0.4)), url("../images/main/backgroundmobile1x.jpg");
     background-size: cover;
     background-repeat: no-repeat;    
 }
@@ -19,4 +19,59 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+    .main-section {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url("../images/main/backgroundmobile@2x.jpg");
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-section {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url("../images/main/backgroundtablet1x.jpg");
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1199px),
+screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1199px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1199px) {
+    .main-section {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url("../images/main/backgroundtablet@2x.jpg");
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-section {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url("../images/main/backgrounddesktop1x.jpg");
+
+        &__heading {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.364;
+        }
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px) and (max-width: 1600px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px) and (max-width: 1600px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px) and (max-width: 1600px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) and (max-width: 1600px) {
+    .main-section {
+        background-image:
+            linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+            url("../images/main/backgrounddesktop@2x.jpg");
+    }
 }

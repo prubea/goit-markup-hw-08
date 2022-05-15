@@ -1,70 +1,98 @@
 .container {
-    width: 1200px;
+    width: 100%;
     padding: 0 15px;
     align-items: center;
     margin: 0 auto;
+}
+// 480+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        max-width: 448px;
+        margin: 0 auto;
+    }
+}
 
-    .header & {
-        display: flex;
+// 768+ and (max-width: 1200px) 
+@media screen and (min-width: 768x) {
+    .container {
+        max-width: 720px;
+
+        .header & {
+            justify-content: center;
+        }
+    }
+}
+
+// 1200+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        padding: 0 15px;
         align-items: center;
-        padding-top: 0;
-        padding-bottom: 0;
-        height: 80px;
         margin: 0 auto;
-    }
 
-    .main-section & {
-        display: block;
-        color: var(--white-color);
-        padding-top: 200px;
-        padding-bottom: 200px;
-    }
+        .header & {
+            display: flex;
+            align-items: center;
+            padding-top: 0;
+            padding-bottom: 0;
+            height: 80px;
+            margin: 0 auto;
+        }
 
-    .atut & {
-        display: block;
-    }
+        .main-section & {
+            display: block;
+            color: var(--white-color);
+            padding-top: 200px;
+            padding-bottom: 200px;
+        }
 
-    .button-portfolio & {
-        display: block;
-    }
+        .atut & {
+            display: block;
+        }
 
-    .project & {
-        display: flex;
-    }
+        .button-portfolio & {
+            display: block;
+        }
 
-    .client & {
-        display: block;
-    }
+        .project & {
+            display: flex;
+        }
 
-    .work-section & {
-        display: block;
-    }
+        .client & {
+            display: block;
+        }
 
-    .team & {
-        display: block;
-    }
+        .work-section & {
+            display: block;
+        }
 
-    .foter & {
-        display: flex;
-        color: var(--white-color);
-        padding: 60px 0;
-        text-align: left;
-        margin: 0 auto;
-    }
+        .team & {
+            display: block;
+        }
 
-    & .foter-social {
-        display: block;
-        align-self: flex-start;
-        justify-content: space-between;
-        margin-left: 70px;
-        flex-wrap: wrap;
-    }
+        .foter & {
+            display: flex;
+            color: var(--white-color);
+            padding: 60px 0;
+            text-align: left;
+            margin: 0 auto;
+        }
 
-    & .foter-newsletter {
-        display: block;
-        align-self: flex-start;
-        justify-content: space-between;
-        margin-left: 78px;
-        flex-wrap: wrap;
+        & .foter-social {
+            display: block;
+            align-self: flex-start;
+            justify-content: space-between;
+            margin-left: 70px;
+            flex-wrap: wrap;
+        }
+
+        & .foter-newsletter {
+            display: block;
+            align-self: flex-start;
+            justify-content: space-between;
+            margin-left: 78px;
+            flex-wrap: wrap;
+        }
     }
 }

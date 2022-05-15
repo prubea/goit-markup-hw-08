@@ -28,6 +28,8 @@ figure {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .link {
@@ -51,3 +53,7 @@ img {
 .adres-footer {
     font-style: normal;
 }
+
+// * {
+//     box-sizing: border-box;
+// }
