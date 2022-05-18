@@ -5,24 +5,40 @@
 .team-header {
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.167;
+    font-size: 28px;
+    line-height: 1.179;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-color);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .team-opis {
-    padding: 30px 0;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-        0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.186;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--white-color);
+    padding-top: 30px;
+    padding-bottom: 24px;
 }
 
 .team__list {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.team-nasz {
+    margin: 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team__item {
@@ -39,23 +55,68 @@
 }
 
 .team__item:not(:last-child) {
-    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .team-header-name {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-color);
+    padding-top: 30px;
+    padding-bottom: 24px;
 }
 
 .team-p {
+    display: inline-block;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.188;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--gray-color);
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .team__list {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            // flex-basis: calc(100% / 2 - 30px);
+            margin-top: -30px;
+            margin-left: -30px;
+    }
+
+    .team__item {
+        flex-basis: calc(100% / 2 - 30px);
+        margin-left: 30px;
+        margin-top: 30px;
+
+        &:not(:last-child) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .team__item {
+        flex-basis: calc(100% / 4 - 30px);
+
+        &:not(:last-child) {
+            margin-bottom: 0;
+            margin-right: 30px;
+        }
+    }
+    
+    .team-header {
+    font-size: 36px;
+    line-height: 1.167;
+    margin-bottom: 50px;
+    }
+
 }
