@@ -457,6 +457,7 @@ img {
 
 .main-section {
   padding: 0;
+  background-color: var(--main-section-color);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/main/backgroundmobile1x.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -618,6 +619,9 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .work {
+    display: flex;
+  }
   .work__list {
     display: flex;
   }
@@ -710,6 +714,10 @@ img {
   margin-bottom: 30px;
 }
 
+.team-img {
+  margin-bottom: 30px;
+}
+
 .team-header-name {
   display: block;
   font-weight: 500;
@@ -718,8 +726,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--dark-color);
-  padding-top: 30px;
-  padding-bottom: 24px;
 }
 
 .team-p {
@@ -758,7 +764,6 @@ img {
   }
   .team__item:not(:last-child) {
     margin-bottom: 0;
-    margin-right: 30px;
   }
   .team-header {
     font-size: 36px;
@@ -804,18 +809,18 @@ img {
 .client__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
 
 .client__link {
   display: flex;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   fill: var(--litegray-color);
   border: 1px solid var(--litegray-color);
   border-radius: 4px;
-  margin-bottom: 94px;
   align-items: center;
   justify-content: center;
 }
@@ -830,7 +835,6 @@ img {
 .client__item {
   flex-basis: calc(100% / 2 - 30px);
   margin-top: 30px;
-  margin-left: 15px;
 }
 
 .client-header {
@@ -844,19 +848,26 @@ img {
   margin-bottom: 50px;
 }
 
-.client__item:not(:last-child) {
-  margin-right: 30px;
-}
-
 @media screen and (min-width: 768px) {
-  .clients__item {
+  .client__item {
     flex-basis: calc(100% / 3 - 30px);
+  }
+  .client__link {
+    width: 226px;
+    height: 92px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .clients__item {
+  .client__item {
     flex-basis: calc(100% / 6 - 30px);
+  }
+  .client__link {
+    width: 170px;
+    height: 92px;
+  }
+  .client__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 
@@ -986,6 +997,10 @@ img {
 .foter {
   background-color: var(--dark-color);
   color: var(--white-color);
+  margin-top: 94px;
+  padding-top: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .foter-left > .logo-dark {

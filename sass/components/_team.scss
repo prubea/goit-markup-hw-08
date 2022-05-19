@@ -58,6 +58,10 @@
     margin-bottom: 30px;
 }
 
+.team-img {
+    margin-bottom: 30px;
+}
+
 .team-header-name {
     display: block;
     font-weight: 500;
@@ -66,8 +70,8 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-color);
-    padding-top: 30px;
-    padding-bottom: 24px;
+    // padding-top: 30px;
+    // padding-bottom: 24px;
 }
 
 .team-p {
@@ -109,7 +113,7 @@
 
         &:not(:last-child) {
             margin-bottom: 0;
-            margin-right: 30px;
+            // margin-right: 30px;
         }
     }
     
