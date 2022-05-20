@@ -9,6 +9,7 @@
     }
 
     &__item {
+        display: block;
         align-items: center;
         justify-content: center;
         margin-bottom: 30px;
@@ -16,13 +17,13 @@
 
 
     &__icon {
-        display: flex;
-        width: 100%;
+        // display: flex;
+        width: 450;
         height: 120px;
         align-items: center;
         background-color: var(--button-color);
         border-radius: 4px;
-        padding: 25px 100px;
+        padding: 25px 0px 25px 190px;
         margin-bottom: 30px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
@@ -76,15 +77,8 @@
             flex-basis: calc(100% / 2 - 30px);
             margin-top: 30px;
             margin-left: 30px;
-        
-            &:not(:last-child) {
-                margin-bottom: 0px;
-            }
+            margin-bottom: 0px;
         }
-
-        // &__icon {
-        //     padding: 25px 144px;
-        // }
     }
 
     .atut-l__icon {
@@ -103,9 +97,10 @@
 
     .atut__icon {
         padding: 25px 100px;
-    }
-
-    .atut-l__icon {
         width: 270px;
     }
+
+    // .atut-l__icon {
+    //     width: 270px;
+    // }
 }

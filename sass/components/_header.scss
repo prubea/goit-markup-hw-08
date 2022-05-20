@@ -1,5 +1,16 @@
+.navi__list {
+  display: none;
+}
+
+.adres {
+  display: none;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
+  padding: 0;
+  // padding-top: 16px;
+  // padding-bottom: 16px;
 
   &__burger-icon {
       width: 24px;
@@ -17,11 +28,12 @@
 }
 
 @media screen and (min-width: 768px) {
+  
   .header {
     padding-top: 21px;
     padding-bottom: 21px;
 
-    &__burger-icon {
+    .mobi__button {
       display: none;
     }
   }
