@@ -213,7 +213,8 @@ img {
   padding: 0;
 }
 
-.header__burger-icon {
+.mobi__button {
+  display: flex;
   width: 24px;
   height: 16px;
   transition-property: fill;
@@ -221,16 +222,12 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header__burger-icon:hover, .header__burger-icon:focus {
-  fill: var(--decorative-color);
+.mobi__button:hover, .mobi__button:focus {
+  fill: var(--main-color);
   cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
-  .header {
-    padding-top: 21px;
-    padding-bottom: 21px;
-  }
   .header .mobi__button {
     display: none;
   }
