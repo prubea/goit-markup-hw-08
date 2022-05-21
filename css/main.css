@@ -474,6 +474,7 @@ img {
   }
   .adres__mail-icon {
     width: 14px;
+    height: 10px;
     margin-right: 8px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -520,6 +521,7 @@ img {
   }
   .adres__mail-icon {
     width: 16px;
+    height: 12px;
     margin-right: 10px;
     margin-left: auto;
   }
