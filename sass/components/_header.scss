@@ -1,14 +1,7 @@
-.navi__list {
-  display: none;
-}
-
-.adres {
-  display: none;
-}
-
 .header {
   border-bottom: 1px solid #ECECEC;
   padding: 0;
+  
   // padding-top: 16px;
   // padding-bottom: 16px;
 }
@@ -17,6 +10,8 @@
   display: flex;
   width: 24px;
   height: 16px;
+  // margin-left: 135px;
+  // margin-right: 16px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

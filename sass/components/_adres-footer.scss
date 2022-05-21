@@ -4,6 +4,7 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
+    justify-content: center;
     // white-space: pre;
     display: flex;
 
@@ -22,6 +23,36 @@
         &>.link:focus {
             color: var(--main-color);
             fill: var(--main-color);
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .adres-footer {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        // white-space: pre;
+        display: flex;
+
+        &__item {
+            &:not(:last-child) {
+                padding-bottom: 9px;
+            }
+
+            &>.adres-mail,
+            &>.adres-phone {
+                color: var(--gray-color-transparent);
+                transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+
+            &>.link:hover,
+            &>.link:focus {
+                color: var(--main-color);
+                fill: var(--main-color);
+            }
         }
     }
 }

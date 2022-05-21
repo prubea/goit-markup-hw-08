@@ -7,6 +7,7 @@
     .header & {
         display: flex;
         align-items: center;
+        justify-items: center;
         padding-top: 0;
         padding-bottom: 0;
         height: 80px;
@@ -46,9 +47,11 @@
 
     .foter & {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        text-align: center;
         color: var(--white-color);
-        padding: 60px 0;
-        text-align: left;
         margin: 0 auto;
     }
 
@@ -63,7 +66,7 @@
     & .foter-newsletter {
         display: block;
         align-self: flex-start;
-        justify-content: space-between;
+        justify-content: center;
         margin-left: 78px;
         flex-wrap: wrap;
     }
@@ -71,20 +74,26 @@
 
 
 // 480+
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .container {
         max-width: 448px;
         margin: 0 auto;
     }
 }
 
-// 768+ and (max-width: 1200px) 
-@media screen and (min-width: 768x) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
     .container {
-        max-width: 720px;
-
+        max-width: 768px;
+    
         .header & {
             justify-content: center;
+        }
+
+        .foter & {
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            align-content: flex-start;
         }
     }
 }
@@ -92,9 +101,29 @@
 // 1200+
 @media screen and (min-width: 1200px) {
     .container {
-        width: 1200px;
-        padding: 0 15px;
-        align-items: center;
-        margin: 0 auto;
+        max-width: 1200px;
+
+        .foter & {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            text-align: left;
+        }
+    
+        & .foter-social {
+            display: block;
+            align-self: flex-start;
+            justify-content: space-between;
+            margin-left: 70px;
+            flex-wrap: wrap;
+        }
+
+        & .foter-newsletter {
+            display: block;
+            align-self: flex-start;
+            justify-content: space-between;
+            margin-left: 78px;
+            flex-wrap: wrap;
+        }
     }
 }

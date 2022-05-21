@@ -25,13 +25,13 @@
   <body>
     <!--Menu-->
     <header class="header">
-      <div class="container">
+      <div class="header__desktop container">
         <a class="link logo logo-menu" href="index.html"><span class="logo-web">Web</span>Studio</a>
-
-        <svg class="header__burger-icon" data-menu-open>
-          <use href="./images/icons.svg#icon-menu_24px"></use>
+        <!-- <button class="mobi__button" data-menu-open> -->
+        <svg class="mobi__button" data-menu-button>
+          <use href="/images/icons.svg#icon-navburger"></use>
         </svg>
-
+        <!-- </button> -->
         <nav class="navi">
           <ul class="navi__list">
             <li class="navi__item">
@@ -49,19 +49,25 @@
           </ul>
         </nav>
         <!--hover-->
+        <ul class="adres">
+          <li class="adres__item">
+            <a class="link adres__link" href="mailto:info@example.com">
+              <svg class="adres__mail-icon">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@example.com
+            </a>
+          </li>
+          <li class="adres__item">
+            <a class="link adres__link" href="tel:+48111111111">
+              <svg class="adres__phone-icon">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+              +48 111 111 111
+            </a>
+          </li>
+        </ul>
 
-        <a class="link adres adres-mail mail-link" href="mailto:info@example.com">
-          <svg class="adres-mail__icon" width="16">
-            <use href="./images/icons.svg#icon-envelope"></use>
-          </svg>
-          info@example.com
-        </a>
-        <a class="link adres adres-phone phone-link" href="tel:+48111111111">
-          <svg class="adres-phone__icon" width="10">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-          +48 111 111 111
-        </a>
         <!-- <button class="modal-btn" type="button" data-modal-open>REJESTRACJA ONLINE</button> -->
       </div>
     </header>
