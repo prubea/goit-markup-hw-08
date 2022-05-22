@@ -231,29 +231,10 @@ img {
   height: 16px;
   fill: var(--dark-color);
   position: absolute;
-  top: 21px;
-  right: 25px;
+  right: 30px;
 }
 
 .button__mobile:hover, .button__mobile:focus {
-  cursor: pointer;
-  fill: var(--main-color);
-}
-
-.mobile-menu__close-btn {
-  display: flex;
-  width: 24px;
-  height: 16px;
-  fill: var(--dark-color);
-  position: absolute;
-  top: 21px;
-  right: 25px;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.mobile-menu__close-btn:hover, .mobile-menu__close-btn:focus {
   cursor: pointer;
   fill: var(--main-color);
 }
@@ -287,18 +268,20 @@ img {
 }
 
 .mobile-menu__close-btn {
+  display: flex;
   width: 40px;
-  height: 40px;
-  padding: 7px;
-  border: none;
-  top: 10px;
-  right: 15px;
+  height: 30px;
+  fill: var(--dark-color);
+  position: absolute;
+  top: 25px;
+  right: 25px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mobile-menu__close-btn:hover {
+.mobile-menu__close-btn:hover, .mobile-menu__close-btn:focus {
+  cursor: pointer;
   fill: var(--main-color);
 }
 
@@ -1391,7 +1374,7 @@ img {
   align-items: center;
   text-align: center;
   padding: 10px 28px 10px 42px;
-  margin-left: 12px;
+  margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
   background-color: var(--main-color);
@@ -1409,7 +1392,7 @@ img {
 
 .foter-pp {
   display: flex;
-  text-align: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.172;
