@@ -25,6 +25,11 @@
         display: block;
     }
 
+    .portfolio-btn & {
+        max-width: 480px;
+        padding: 0 15px;
+    }
+
     .button-portfolio & {
         display: block;
     }
@@ -43,32 +48,18 @@
 
     .team & {
         display: block;
+        // max-width: 480px;
+        // padding: 0 15px;
     }
 
-    .foter & {
-        display: flex;
-        flex-direction: column;
+    .foter & {        
+        display: block;
+        flex-direction: row;
+        align-items: baseline;
         justify-content: center;
-        // align-items: center;
         text-align: center;
         color: var(--white-color);
         margin: 0 auto;
-    }
-
-    & .foter-social {
-        display: block;
-        align-self: flex-start;
-        justify-content: space-between;
-        margin-left: 70px;
-        flex-wrap: wrap;
-    }
-
-    & .foter-newsletter {
-        display: block;
-        align-self: flex-start;
-        justify-content: center;
-        margin-left: 78px;
-        flex-wrap: wrap;
     }
 }
 
@@ -87,6 +78,11 @@
     
         .header & {
             justify-content: center;
+        }
+
+        .portfolio-btn & {
+            max-width: 768px;
+            padding: 0 15px;
         }
 
         .foter & {
@@ -116,6 +112,11 @@
             justify-content: space-between;
             margin-left: 70px;
             flex-wrap: wrap;
+        }
+
+        .portfolio-btn & {
+            max-width: 1200px;
+            padding: 0 15px;
         }
 
         & .foter-newsletter {

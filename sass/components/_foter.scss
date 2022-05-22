@@ -1,4 +1,6 @@
 .foter {
+    display: flex;
+    flex-direction: column;
     background-color: var(--dark-color);
     color: var(--white-color);
     margin-top: 94px;
@@ -14,3 +16,9 @@
     padding-bottom: 20px;
 }
 
+@media screen and (min-width: 768px) {
+
+    .foter .container {
+        display: flex;
+    }
+}

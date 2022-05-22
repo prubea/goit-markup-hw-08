@@ -3,13 +3,16 @@
 
     &__list {
         display: flex;
-        flex-wrap: wrap;
+        // flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between;
+        // justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
     }
 
     &__item {
         display: block;
+        max-width: 450px;
         align-items: center;
         justify-content: center;
         margin-bottom: 30px;
@@ -18,46 +21,44 @@
 
     &__icon {
         // display: flex;
-        width: 450;
+        width: 100%;
+        // width: 450;
         height: 120px;
         align-items: center;
         background-color: var(--button-color);
         border-radius: 4px;
-        padding: 25px 0px 25px 190px;
+        padding: 25px 0px;
         margin-bottom: 30px;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
     }
 }
 
-// .atut-l__icon {
-//     display: flex;
-//     align-items: center;
-//     width: 270px;
-//     height: 120px;
-//     background: #F5F4FA;
-//     border-radius: 4px;
-// }
+.atut__item:not(:last-child) {
+    margin-bottom: 30px;
+}
 
 .atut-header {
-    display: flex;
+    // display: flex;
     width: 270px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.143;
-    letter-spacing: 0.03em;
-    color: var(--dark-color);
     text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-color);
 }
 
 .atut-p {
-    display: flex;
-    width: 270px;
+    // display: flex;
+    max-width: 270px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--dark-color);    
+    color: var(--dark-color);
+    margin-top: 10px;
 }
 
 .atut-p:not(:last-child) {
@@ -75,21 +76,27 @@
 
         &__item {
             flex-basis: calc(100% / 2 - 30px);
+            max-width: 354px;
             margin-top: 30px;
             margin-left: 30px;
             margin-bottom: 0px;
         }
     }
 
+    .atut-header {
+        text-align: left;
+    }
+
     .atut-l__icon {
         align-items: center;
-        width: 354px;
+        max-width: 354px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .atut__item {
         flex-basis: calc(100% / 4 - 30px);
+        max-width: 270px;
         margin-bottom: 30px;
         align-items: center;
         justify-content: center;
@@ -97,10 +104,7 @@
 
     .atut__icon {
         padding: 25px 100px;
-        width: 270px;
+        max-width: 270px;
     }
 
-    // .atut-l__icon {
-    //     width: 270px;
-    // }
 }

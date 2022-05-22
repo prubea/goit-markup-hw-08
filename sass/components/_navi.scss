@@ -10,8 +10,8 @@
     &__list {
         display: flex;
         
-        margin-right: 101px;
-        margin-left: 83px;
+        // margin-right: 101px;
+        margin-left: auto;
     }
 
     &__link {
@@ -63,7 +63,7 @@
         }
 
         &__list {
-            margin-right: 345px;
+            margin-right: auto;
             margin-left: 93px;
         }
 

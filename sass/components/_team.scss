@@ -11,7 +11,7 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-color);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .team-opis {
@@ -31,6 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
     list-style: none;
 }
 
@@ -89,10 +90,8 @@
 
 @media screen and (min-width: 768px) {
     .team__list {
-            display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            // flex-basis: calc(100% / 2 - 30px);
             margin-top: -30px;
             margin-left: -30px;
     }
