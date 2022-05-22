@@ -11,7 +11,7 @@
 }
 
 .project__item {
-    width: 100%;
+    width: 450px;
     margin: auto;
     margin-top: 30px;
 
@@ -33,8 +33,11 @@
     }
 
     .project__item {
+        width: 354px;
         flex-basis: calc(100% / 2 - 30px);
-        // margin-left: 30px;
+        margin: auto;
+        margin-top: 30px;
+        margin-left: 30px;
         // margin-top: 30px;
     }
 

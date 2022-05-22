@@ -39,6 +39,7 @@
 
     .client & {
         display: block;
+        padding: 0px;
     }
 
     .work-section & {
@@ -66,14 +67,14 @@
 // 480+
 @media screen and (min-width: 480px) and (max-width: 767px) {
     .container {
-        max-width: 448px;
+        // max-width: 448px;
         margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .container {
-        max-width: 768px;
+        // max-width: 768px;
     
         .header & {
             justify-content: center;

@@ -134,6 +134,7 @@ img {
 
 .client .container {
   display: block;
+  padding: 0px;
 }
 
 .work-section .container {
@@ -156,15 +157,11 @@ img {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
-    max-width: 448px;
     margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .container {
-    max-width: 768px;
-  }
   .header .container {
     justify-content: center;
   }
@@ -927,8 +924,8 @@ img {
 .client__list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -954,9 +951,12 @@ img {
 }
 
 .client__item {
-  flex-basis: calc(100% / 2 - 30px);
+  flex-basis: calc(100% / 2 - 40px);
   margin-left: 30px;
-  margin-top: 30px;
+}
+
+.client__item:not(:last-child) {
+  margin-bottom: 0;
 }
 
 .client-header {
@@ -1089,7 +1089,7 @@ img {
 }
 
 .project__item {
-  width: 100%;
+  width: 450px;
   margin: auto;
   margin-top: 30px;
 }
@@ -1107,7 +1107,11 @@ img {
     flex-direction: row;
   }
   .project__item {
+    width: 354px;
     flex-basis: calc(100% / 2 - 30px);
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 30px;
   }
   .project__item:not(:last-child) {
     margin-bottom: 0;
@@ -1130,6 +1134,7 @@ img {
 
 .box {
   position: relative;
+  width: 450px;
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
@@ -1180,6 +1185,28 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--gray-color);
+}
+
+@media screen and (min-width: 768px) {
+  .box {
+    position: relative;
+    width: 354px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box {
+    position: relative;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    overflow: hidden;
+  }
 }
 
 .foter {
