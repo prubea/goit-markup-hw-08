@@ -1,4 +1,6 @@
 .backdrop {
+    display: flex;
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -14,11 +16,12 @@
 
 .modal {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 528px;
-    min-height: 581px;
+    width: 450px;
+    min-height: 609px;
+    padding: 40px;
     background-color: var(--white-color);
 }
 
@@ -29,14 +32,20 @@
 }
 
 @media screen and (min-width: 768px) {
+    .backdrop {
+        display: flex;
+        z-index: 2;
+        position: fixed;
+    }
     .modal {
         width: 450px;
+        min-height: 609px;
     }
 }
 
 @media screen and (min-width: 1200px) {
     .modal {
         width: 528px;
-        height: 581px;
+        min-height: 581px;
     }
 }

@@ -2,18 +2,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin-right: 54px;
-    margin-bottom: 30px;
-    margin-left: 55px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
     align-items: center;
-    width: 419px;
-    height: 24px;
+    width: 370px;
+    height: 15px;
 }
 
 .modal-form-policy-text {
-    font-size: 14px;
-    line-height: 1.714;
+    font-size: 12px;
+    line-height: 1.167;
     letter-spacing: 0.03em;
+    margin-bottom: 31px;
     color: var(--gray-color);
 }
 
@@ -44,4 +45,23 @@
     transition-property: background-color, border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 1200px) {
+    .policy {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin-bottom: 30px;
+        align-items: center;
+        width: 419px;
+        height: 24px;
+    }
+
+    .modal-form-policy-text {
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: var(--gray-color);
+    }
 }
