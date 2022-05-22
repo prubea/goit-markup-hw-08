@@ -11,7 +11,8 @@
 }
 
 .project__item {
-    max-width: 370px;
+    width: 100%;
+    margin: auto;
     margin-top: 30px;
 
     &:focus,
@@ -25,16 +26,21 @@
 }
 
 @media screen and (min-width: 768px) {
-    .project__item:not(:last-child) {
-        margin-bottom: 0;
+    .project__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .project__item {
         flex-basis: calc(100% / 2 - 30px);
-        margin-left: 30px;
-        margin-top: 30px;
+        // margin-left: 30px;
+        // margin-top: 30px;
     }
 
+    .project__item:not(:last-child) {
+        margin-bottom: 0;
+    }
 }
 
 @media screen and (min-width: 1200px) {

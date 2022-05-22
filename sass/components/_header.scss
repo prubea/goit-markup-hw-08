@@ -6,29 +6,45 @@
   // padding-bottom: 16px;
 }
 
-.mobi__button {
+// buttons mobile
+.button__mobile {
+  width: 24px;
+  height: 16px;
+  fill: var(--dark-color);
+  position: absolute;
+  top: 21px;
+  right: 25px;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: var(--main-color)
+  }
+}
+
+.mobile-menu__close-btn {
   display: flex;
   width: 24px;
   height: 16px;
-  // margin-left: 135px;
-  // margin-right: 16px;
+  fill: var(--dark-color);
+  position: absolute;
+  top: 21px;
+  right: 25px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    fill: var(--main-color);
     cursor: pointer;
+    fill: var(--main-color)
   }
 }
 
+
+
 @media screen and (min-width: 768px) {
-  
-  .header {
-   
-    .mobi__button {
-      display: none;
-    }
+  .button__mobile {
+    display: none;
   }
 }
